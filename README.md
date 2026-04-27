@@ -11,7 +11,7 @@ research cycle to build my own long-only factor on this universe. Started at
 -0.21 Sharpe; ended at **+0.78 Sharpe, 10.9% ann. return, -22% max DD** after
 six iterations of failure, diagnosis, and refinement.
 
-📄 **[Read the full research log (PDF)](docs/research_notes.pdf)** —
+📄 **[Read the sample research log (PDF)](docs/research_notes.pdf)** —
 six-iteration journey from failed factors to a working composite, including
 the two diagnostic breakthroughs that changed everything.
 
