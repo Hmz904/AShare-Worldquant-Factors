@@ -4,21 +4,18 @@ A complete Python backtesting framework for translating **WorldQuant Brain alpha
 
 ---
 
-## 📊 Featured Result — Idio-Vol Composite (Sharpe 0.78)
-
-After translating 25 WorldQuant alphas, I went one level deeper and ran a full
-research cycle to build my own long-only factor on this universe. Started at
--0.21 Sharpe; ended at **+0.78 Sharpe, 10.9% ann. return, -22% max DD** after
-six iterations of failure, diagnosis, and refinement.
-
+## 📊 Sample Result — Idio-Vol Composite (Sharpe 0.78)
+After translating 25 WorldQuant alphas, I ran a full research cycle on this
+universe to build my own long-only factor. Started at -0.21 Sharpe; ended at
+**+0.78 Sharpe, 10.9% ann. return, -22% max DD** after six iterations of
+failure, diagnosis, and refinement. Not a strong result on its own — mostly
+an exercise in running the full pipeline end-to-end.
 📄 **[Read the sample research log (PDF)](docs/research_notes.pdf)** —
 six-iteration journey from failed factors to a working composite, including
-the two diagnostic breakthroughs that changed everything.
-
+two diagnostic steps that shifted the direction of the work.
 📈 **[View the sample tearsheet (HTML)](reports/alpha_34_report.html)** —
 interactive Chart.js report with NAV curve, drawdown, IC decay, quintile
 returns, and turnover analysis.
-
 | Metric              | Value     |
 |---------------------|-----------|
 | Annualized return   | **+10.9%**|
@@ -28,7 +25,6 @@ returns, and turnover analysis.
 | Calmar              | 0.49      |
 | ICIR                | 0.42      |
 | Annual turnover     | 586%      |
-
 > Universe: top 1500 A-share by 20d ADV. Monthly rebalance, top 100 equal-weight, 3 bps commission per side. Period 2021-01-04 to 2025-12-31.
 
 ---
